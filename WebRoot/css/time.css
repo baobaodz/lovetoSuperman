@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	background: oldlace;
+}
+			
+.center {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0);
+	bottom: 50%;
+	font-family: -apple-system,
+	BlinkMacSystemFont,
+	"Segoe UI",
+	Roboto,
+	Oxygen-Sans,
+	Ubuntu,
+	Cantarell,
+	"Helvetica Neue",
+	sans-serif;
+	padding: .5rem 2rem;
+	font-size: 20px;
+	border-bottom: dotted 0.5px gray;
+}
+.dig {
+	font-size: 32px;
+	color: palevioletred;
+	font-style: italic;
+	font-family: Constantia;
+}
+
+.forward_back {
+	line-height: 40px;
+	height: 40px;
+	width: 200px;
+	position: fixed;
+	bottom: 30px;
+	left:42%;
+}	
+.forward_back a{
+	
+	text-decoration: none;
+	color: grey;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+#audio_btn{
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		position: fixed;
+		right: 20px;
+		top: 20px;
+		
+	}
+#music_btn{
+		display: inline-block;
+		height: 32px;
+		width: 32px;
+		
+}

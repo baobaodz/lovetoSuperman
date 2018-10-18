@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>一起走过的路</title>
+	
+<link rel="stylesheet" type="text/css" href="css/process.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/history.js"></script>
+</head>
+<body>
+
+<div id="arrow">
+	<ul>
+		<li class="arrowup"></li>
+		<li class="arrowdown"></li>
+	</ul>
+</div>
+
+<div id="history">
+
+
+	<div class="title">
+		<!--背景音乐-->
+		<a src="#" id="audio_btn">
+			<img src="img/play.png" id="music_btn"/>
+		</a>
+		<audio id="audio" src="bgm/Kan R. Gao - To the Moon - Main Theme.mp3" autoplay="autoplay" loop="loop"></audio>
+		<h2>我们一起</h2>
+		<div id="circle">
+			<div class="cmsk"></div>
+			<div class="circlecontent">
+				<div thisyear="2016" class="timeblock">
+					<span class="numf"></span>
+					<span class="nums"></span>
+					
+					<span class="numt"></span>
+					<span class="numfo"></span>
+					<div class="clear"></div>
+				</div>
+				<div class="timeyear">年</div>
+			</div>
+			<a class="clock"></a>
+		</div>
+	</div>
+	
+	<div id="content">
+		<ul class="list">
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">5月21日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>初识</a></div>
+						<div class="hisct">我看起来脸大吗？---你不是脸大，是笑的灿烂</div>
+					</div>
+				</div>
+			</li>
+            <li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">6月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>儿童节礼物</a></div>
+						<div class="hisct">丑丑的小羊杯子，还有暖暖的奶茶</div>
+					</div>
+				</div>
+			</li>
+            <li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">6月3日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>江苏森林警官学院</a></div>
+						<div class="hisct">在满是格桑的花海，背起你就背起整个世界</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">6月3日-7月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>游山玩水</a></div>
+						<div class="hisct">游山玩水，忘却复习，却是我们很开心的日子</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">8月12日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>看流星</a></div>
+						<div class="hisct">看星星一颗两颗三颗四颗连成线</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">9月10日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>第一次么么</a></div>
+						<div class="hisct">青草花香，操场月光</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">9月14日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>南京长江大桥牵手夜游</a></div>
+						<div class="hisct">凉凉的夜风，闪烁的船灯，抓紧了你的手</div>
+					</div>
+				</div>
+			</li>
+            <li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2016</span>
+							<span class="md">10月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>第一次远途旅行</a></div>
+						<div class="hisct">西湖人很多很多，舟山民宿，阳光沙滩</div>
+					</div>
+				</div>
+			</li>
+         	
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2017</span>
+							<span class="md">2月20日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>早春踏青</a></div>
+						<div class="hisct">早春赏梅花，城墙放风筝</div>
+					</div>
+				</div>
+			</li>
+			
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2017</span>
+							<span class="md">4月02日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>宜家一日游</a></div>
+						<div class="hisct">啥时候能有舒服的大床和温馨的小屋呢</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2017</span>
+							<span class="md">4月30日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>我家超男的生日</a></div>
+						<div class="hisct">去紫金山露营看日出</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2017</span>
+							<span class="md">6月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>一周年啦</a></div>
+						<div class="hisct">回首过去，有你真好</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2017</span>
+							<span class="md">8月08日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>南通相遇</a></div>
+						<div class="hisct">忘不了你依依不舍的大眼睛</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2017</span>
+							<span class="md">10月02日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>武汉我们来啦</a></div>
+						<div class="hisct">啦啦啦啦啦</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2018</span>
+							<span class="md">1月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>圣保罗大教堂</a></div>
+						<div class="hisct">啦啦啦啦</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2018</span>
+							<span class="md">5月19日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>生日</a></div>
+						<div class="hisct">天台烛火，生日礼物</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2018</span>
+							<span class="md">6月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>两周年啦</a></div>
+						<div class="hisct">啦啦啦啦啦</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2018</span>
+							<span class="md">6月26日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>上海面试</a></div>
+						<div class="hisct">啦啦啦啦啦</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2018</span>
+							<span class="md">8月12日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>上海相遇</a></div>
+						<div class="hisct">早每一次相遇都是久别重逢啊</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2018-</span>
+							<span class="md">2019</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>未来可期</a></div>
+						<div class="hisct">啦啦啦啦啦</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2019</span>
+							<span class="md">6月1日</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>三周年！！！</a></div>
+						<div class="hisct">带你去迪士尼乐园！！</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="liwrap">
+					<div class="lileft">
+						<div class="date">
+							<span class="year">2019</span>
+							<span class="md">7.1-9.1</span>
+						</div>
+					</div>
+					
+					<div class="point"><b></b></div>
+					
+					<div class="liright">
+						<div class="histt"><a>毕业旅行</a></div>
+						<div class="hisct">去青海去大理</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+	<div class="forward_back">
+		<a href="index.html">上一页&nbsp;&nbsp;|&nbsp;</a>
+		<a href="love_time.html">下一页</a>
+	</div>
+	</body>
+</html>
